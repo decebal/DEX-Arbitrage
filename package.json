@@ -4,7 +4,10 @@
   "description": "",
   "main": "arb.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gas": "npx hardhat run --network aurora ./scripts/gas.js",
+    "test": "npx hardhat run --network aurora ./scripts/test.js",
+    "instadeploy": "npx hardhat run --network aurora ./scripts/instadeploy.js",
+    "deploy": "npx hardhat run --network aurora ./scripts/deploy.js"
   },
   "author": "",
   "license": "ISC",
